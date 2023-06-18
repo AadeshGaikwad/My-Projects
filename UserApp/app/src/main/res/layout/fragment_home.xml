@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fff"
+    tools:context=".ui.home.HomeFragment">
+
+   <ScrollView
+       android:layout_width="match_parent"
+       android:layout_height="match_parent">
+
+       <LinearLayout
+           android:layout_width="match_parent"
+           android:layout_height="match_parent"
+           android:orientation="vertical">
+
+           <com.smarteist.autoimageslider.SliderLayout
+               android:layout_width="match_parent"
+               android:layout_height="250dp"
+               android:id="@+id/slider"/>
+
+           <TextView
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:text="GMVIT College"
+               android:layout_marginTop="36dp"
+               android:textSize="@dimen/title_size"
+               android:layout_gravity="center_horizontal"
+               android:textColor="@color/textColor"
+               android:fontFamily="@string/bold"/>
+
+
+
+           <TextView
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:text="G. M. Vedak Institute of Technology was established in the year 2011 under the flagship of Shri.Gopinath Mahadeo Vedak Trust.It is the brainchild of great Visionary, Founder and Chairman Dr. (Shri.) Nandkumar Gopinath Vedak and Trustee and Secretary Shri. Unmesh Nandkumar Vedak, aiming to cater professional engineering education to urban as well as needy students of rural areas. Institute is located in the hilly region near Mumbai and is easily accessible by Road and Railway Infrastructure. "
+               android:layout_marginTop="@dimen/text_margin"
+               android:layout_marginHorizontal="@dimen/text_margin"
+               android:textSize="@dimen/text_size"
+               android:layout_gravity="center_horizontal"
+               android:textColor="@color/textColor"
+               android:fontFamily="@string/light"/>
+
+           <LinearLayout
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:layout_marginTop="36dp"
+               android:background="@color/darkColor">
+
+               <LinearLayout
+                   android:layout_width="match_parent"
+                   android:layout_height="match_parent"
+                   android:layout_margin="36dp"
+                   android:orientation="vertical">
+
+
+
+                   <TextView
+                       android:layout_width="wrap_content"
+                       android:layout_height="wrap_content"
+                       android:text="Deparments"
+                       android:layout_marginTop="@dimen/text_margin"
+                       android:textSize="@dimen/title_size"
+                       android:layout_gravity="center_horizontal"
+                       android:textColor="#fff"
+                       android:fontFamily="@string/bold"/>
+
+
+
+                   <com.google.android.material.card.MaterialCardView
+                       android:layout_width="match_parent"
+                       android:layout_height="wrap_content"
+                       android:layout_marginTop="16dp">
+
+                       <LinearLayout
+                           android:layout_width="match_parent"
+                           android:layout_height="wrap_content"
+                           android:background="#fff"
+                           android:orientation="vertical">
+
+                           <TextView
+                               android:layout_width="wrap_content"
+                               android:layout_height="wrap_content"
+                               android:text="Computer Science"
+                               android:layout_marginTop="@dimen/text_margin"
+                               android:layout_marginHorizontal="@dimen/text_margin"
+                               android:textSize="@dimen/text_size"
+                               android:layout_gravity="center_horizontal"
+                               android:textColor="@color/textColor"
+                               android:layout_margin="8dp"
+                               android:fontFamily="@string/light"/>
+
+
+                           <View
+                               android:layout_width="match_parent"
+                               android:layout_height="1dp"
+                               android:background="@color/grey"/>
+
+
+                           <TextView
+                               android:layout_width="wrap_content"
+                               android:layout_height="wrap_content"
+                               android:text=" Mechanical Engineering"
+                               android:layout_marginTop="@dimen/text_margin"
+                               android:layout_marginHorizontal="@dimen/text_margin"
+                               android:textSize="@dimen/text_size"
+                               android:layout_gravity="center_horizontal"
+                               android:textColor="@color/textColor"
+                               android:layout_margin="8dp"
+                               android:fontFamily="@string/light"/>
+
+
+                           <View
+                               android:layout_width="match_parent"
+                               android:layout_height="1dp"
+                               android:background="@color/grey"/>
+
+                           <TextView
+                               android:layout_width="wrap_content"
+                               android:layout_height="wrap_content"
+                               android:text="Civil Engineering"
+                               android:layout_marginTop="@dimen/text_margin"
+                               android:layout_marginHorizontal="@dimen/text_margin"
+                               android:textSize="@dimen/text_size"
+                               android:layout_gravity="center_horizontal"
+                               android:textColor="@color/textColor"
+                               android:layout_margin="8dp"
+                               android:fontFamily="@string/light"/>
+
+                       </LinearLayout>
+
+                   </com.google.android.material.card.MaterialCardView>
+
+
+               </LinearLayout>
+
+
+
+           </LinearLayout>
+
+           <LinearLayout
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:orientation="vertical"
+               android:padding="@dimen/text_margin">
+
+               <TextView
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:text="Contact Details"
+                   android:layout_marginTop="36dp"
+                   android:textSize="@dimen/title_size"
+                   android:layout_gravity="center_horizontal"
+                   android:textColor="@color/textColor"
+                   android:fontFamily="@string/bold"/>
+
+               <TextView
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:text="GMVIT"
+                   android:layout_marginTop="@dimen/text_margin"
+                   android:layout_marginHorizontal="@dimen/text_margin"
+                   android:textSize="@dimen/text_size"
+                   android:textColor="@color/textColor"
+                   android:fontFamily="@string/light"/>
+
+
+               <TextView
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:text="Raigad,Tala"
+                   android:layout_marginTop="@dimen/text_margin"
+                   android:layout_marginHorizontal="@dimen/text_margin"
+                   android:textSize="@dimen/text_size"
+                   android:textColor="@color/textColor"
+                   android:fontFamily="@string/light"/>
+
+
+               <TextView
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:text="Gmvit@gmail.com"
+                   android:layout_marginTop="@dimen/text_margin"
+                   android:layout_marginHorizontal="@dimen/text_margin"
+                   android:textSize="@dimen/text_size"
+                   android:textColor="@color/textColor"
+                   android:fontFamily="@string/light"/>
+
+               <ImageView
+                   android:id="@+id/map"
+                   android:layout_width="wrap_content"
+                   android:layout_height="230dp"
+                   android:src="@drawable/clgmap"/>
+
+
+           </LinearLayout>
+
+
+       </LinearLayout>
+
+
+   </ScrollView>
+
+
+
+</FrameLayout>
